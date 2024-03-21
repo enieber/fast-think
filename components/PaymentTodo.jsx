@@ -1092,19 +1092,18 @@ export default function PaymentTodo() {
                                                               fontSize: 15
                                                             }}
                                                           >
-                                                            <strong>{
+                                                            <strong>
                                                               To save or protect
                                                               an individual's
-                                                              vital interest.}
-                                                            </strong>{
+                                                              vital interest.
+                                                            </strong>
                                                             We may process your
                                                             information when
                                                             necessary to save or
                                                             protect an
                                                             individual’s vital
                                                             interest, such as to
-                                                            prevent harm.
-                                                            }
+                                                            prevent harm.                                                            
                                                           </span>
                                                         </span>
                                                         <bdt className="statement-end-if-in-editor">
