@@ -50,17 +50,14 @@ export default function PaymentTodo() {
             <bdt className="question">
               Fast Think
               <bdt className="block-component" />
-            </bdt>{" "}
-            (<bdt className="block-component" />"<strong>we</strong>," "
-            <strong>us</strong>," or "<strong>our</strong>"
+            </bdt>
+            
             <bdt className="statement-end-if-in-editor" />
           </span>
           <span data-custom-class="body_text">
-            ), describes how and why we might collect, store, use, and/or share
-            (<bdt className="block-component" />"<strong>process</strong>"
-            <bdt className="statement-end-if-in-editor" />) your information
-            when you use our services (<bdt className="block-component" />"
-            <strong>Services</strong>"
+             describes how and why we might collect, store, use, and/or share your information
+            when you use our services (<bdt className="block-component" />
+            <strong>Services</strong>
             <bdt className="statement-end-if-in-editor" />
             ), such as when you:
           </span>
