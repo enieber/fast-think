@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Privacity.module.css";
 
-import PaymentTodo from '../components/PaymentTodo';
+import Privacity from '../components/PaymentTodo';
 
 export default function PaymentTodo() {
   return (
@@ -15,7 +15,7 @@ export default function PaymentTodo() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Privacy Policy</h1>
-        <PaymentTodo />
+        <Privacity />
       </main>
 
       <footer className={styles.footer}>
