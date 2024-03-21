@@ -1092,11 +1092,11 @@ export default function PaymentTodo() {
                                                               fontSize: 15
                                                             }}
                                                           >
-                                                            <strong>
+                                                            <strong>{
                                                               To save or protect
                                                               an individual's
-                                                              vital interest.
-                                                            </strong>{" "}
+                                                              vital interest.}
+                                                            </strong>{
                                                             We may process your
                                                             information when
                                                             necessary to save or
@@ -1104,6 +1104,7 @@ export default function PaymentTodo() {
                                                             individual’s vital
                                                             interest, such as to
                                                             prevent harm.
+                                                            }
                                                           </span>
                                                         </span>
                                                         <bdt className="statement-end-if-in-editor">
@@ -3767,9 +3768,9 @@ export default function PaymentTodo() {
                                                                           details
                                                                           provided
                                                                           in the
-                                                                          section{" "}
+                                                                          section
                                                                           <bdt className="block-component" />
-                                                                          "
+                                                                          
                                                                           <bdt className="statement-end-if-in-editor" />
                                                                         </span>
                                                                       </span>
@@ -3820,8 +3821,7 @@ export default function PaymentTodo() {
                                                                         }}
                                                                       >
                                                                         <span data-custom-class="body_text">
-                                                                          <bdt className="block-component" />
-                                                                          "
+                                                                          <bdt className="block-component" />                                                                          
                                                                           <bdt className="statement-end-if-in-editor" />{" "}
                                                                           below.
                                                                         </span>
@@ -4208,7 +4208,7 @@ export default function PaymentTodo() {
                                                                           in the
                                                                           section{" "}
                                                                           <bdt className="block-component" />
-                                                                          "
+                                                                          
                                                                           <bdt className="statement-end-if-in-editor" />
                                                                         </span>
                                                                       </span>
@@ -4260,7 +4260,6 @@ export default function PaymentTodo() {
                                                                       >
                                                                         <span data-custom-class="body_text">
                                                                           <bdt className="block-component" />
-                                                                          "
                                                                           <bdt className="statement-end-if-in-editor" />{" "}
                                                                           below
                                                                           <bdt className="block-component" />
@@ -4566,7 +4565,7 @@ export default function PaymentTodo() {
                                                                           Do-Not-Track
                                                                           (
                                                                           <bdt className="block-component" />
-                                                                          "DNT"
+                                                                          {"DNT"}
                                                                           <bdt className="statement-end-if-in-editor" />
                                                                           )
                                                                           feature
@@ -7152,8 +7151,7 @@ export default function PaymentTodo() {
                                                                         information
                                                                         in the
                                                                         section,{" "}
-                                                                        <bdt className="block-component" />
-                                                                        "
+                                                                        <bdt className="block-component" />                                                                        
                                                                         <bdt className="statement-end-if-in-editor" />
                                                                       </span>
                                                                       <a
@@ -7181,7 +7179,6 @@ export default function PaymentTodo() {
                                                                         }}
                                                                       >
                                                                         <bdt className="block-component" />
-                                                                        "
                                                                       </span>
                                                                       <bdt className="statement-end-if-in-editor">
                                                                         <span
@@ -7333,7 +7330,6 @@ export default function PaymentTodo() {
                                                                             the
                                                                             section,{" "}
                                                                             <bdt className="block-component" />
-                                                                            "
                                                                             <bdt className="statement-end-if-in-editor" />
                                                                           </span>
                                                                         </span>
@@ -7935,7 +7931,7 @@ export default function PaymentTodo() {
                                                                             an
                                                                             updated{" "}
                                                                             <bdt className="block-component" />
-                                                                            "Revised"
+                                                                            {"Revised"}
                                                                             <bdt className="statement-end-if-in-editor" />{" "}
                                                                             date
                                                                             and
